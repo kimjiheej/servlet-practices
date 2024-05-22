@@ -14,7 +14,9 @@
      vo.setFirstName(firstName);
      vo.setLastName(lastName);
      vo.setEmail(email);
+     
      new EmaillistDao().insert(vo);
+     response.sendRedirect("/emaillist1");
     %>
 <!DOCTYPE html>
 <html>
