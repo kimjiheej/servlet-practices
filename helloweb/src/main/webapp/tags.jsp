@@ -35,7 +35,7 @@
 	
 	<br>
 	
-	<img src="http://localhost:8080/helloweb/images/loopy.jpg">
+	<img src="/images/rilak.jpg">
 	<img src="/helloweb/images/loopy.jpg">
 	<img src="images/loopy.jpg">
 	
