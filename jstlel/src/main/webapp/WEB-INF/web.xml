@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-  <display-name>helloweb</display-name>
-  <servlet>
-    <servlet-name>HelloServlet</servlet-name>
-    <servlet-class>helloweb.HelloServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HelloServlet</servlet-name>
-    <url-pattern>/hello</url-pattern>
-  </servlet-mapping>
+  <display-name>jstlel</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -19,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>CookieServlet</display-name>
-    <servlet-name>CookieServlet</servlet-name>
-    <servlet-class>helloweb.CookieServlet</servlet-class>
+    <display-name>_01Servlet</display-name>
+    <servlet-name>_01Servlet</servlet-name>
+    <servlet-class>jstlel._01Servlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>CookieServlet</servlet-name>
-    <url-pattern>/cookie</url-pattern>
+    <servlet-name>_01Servlet</servlet-name>
+    <url-pattern>/01</url-pattern>
   </servlet-mapping>
 </web-app>

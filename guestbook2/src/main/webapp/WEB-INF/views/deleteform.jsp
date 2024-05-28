@@ -21,6 +21,14 @@
 	</form>
 	<br><br>
 	<a href="<%=request.getContextPath()%>/gb">메인으로 돌아가기</a>
-	
 </body>
 </html>
+
+
+
+
+
+
+
+
+
