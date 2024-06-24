@@ -1,7 +1,7 @@
-﻿<%@ page import = "emaillist.dao.EmaillistDao" %>
+<%@ page import = "emaillist.dao.EmaillistDao" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
- <%@ page import="emaillist.vo.EmaillistVo" %>
+ <%@ page import="com.poscodx.emaillist.vo.EmaillistVo" %>
  <%@ page import = "java.util.List" %>
  
  

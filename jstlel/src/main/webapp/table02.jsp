@@ -28,7 +28,7 @@
       <c:forEach begin="0" end="${row - 1 }" step="1" var="i">
         <tr>
              <c:forEach begin="0" end="${col -1 }" step="1" var="j">
-             <td>cell(${i }, {j })</td>
+             <td>cell(${i }, ${j })</td>
              </c:forEach>
              
         </tr>
